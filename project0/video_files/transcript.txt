@@ -1,0 +1,9 @@
+Hey there! This is Krishna Sri Somepalli and this is my Project 0 submission for CS50's Mobile App Development with React Native on edX. 
+
+So this is a TODO app. As the project requirements state, this app should be able to add TODOs and track the number of total TODOs as well as the number of unchecked TODOs. Implementing delete functionality is optional. Let's take a look at my app!
+
+When you click on the 'New TODO' button, a prompt box shows up, requesting for a name to assign to this task you are creating. Let's type in 'Purchase pens' and click on 'OK'. So there's your first task. Let's create another one called 'Complete homework'.
+
+Now you can check/uncheck the task, and the 'Unchecked count' is updated accordingly. Also, I implemented the delete functionality. You could simply click on the trashcan icon, to get rid of the item. For this icon, I made some changes to the stylesheet. The 'Item Count' changes each time a task is added/deleted. 
+
+Thank you for watching and thank you Jordan Hayashi for this amazing course! :) 

@@ -47,10 +47,15 @@ function newTodo() {
 
 function updateUncheckedCount(element) {
 	let uncheckedCount = parseInt(uncheckedCountSpan.innerHTML)
-	if(element.checked)
+    console.log(element.checked)
+	if(element.checked){
+        console.log('checked')
 		uncheckedCount = uncheckedCount - 1
-	else
+    }
+	else{
+        console.log('unchecked')
 		uncheckedCount = uncheckedCount + 1
+    }
 	uncheckedCountSpan.innerHTML = uncheckedCount
 }
 
